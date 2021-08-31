@@ -29,6 +29,7 @@ body {
 
 main {
     margin-left: 5px;
+    margin-right: 5px;
    
 }
 #titolo {
@@ -85,4 +86,21 @@ thead {
 
 .trceleste {
     background-color: #b1e5f2;
+}
+
+.titolofondo {
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.suggerimento {
+    position:relative;
+}
+
+.suggerimento span{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 24px;
 }
