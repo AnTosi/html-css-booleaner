@@ -1,10 +1,12 @@
 body {
     margin: 0;
+    border-radius: 0;
+    box-sizing: border-box;
 }
 
 
 #imgheader_background {
-    background-color: rgb(105, 128, 233);
+    background-color: rgba(78,160,255,255);
 }
 
 #imgheader_pattern {
@@ -57,4 +59,27 @@ main {
 
 #testoarticolo ul {
     padding-left: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    min-width: 20vw;
+}
+
+.tabella {
+    text-align: left;
+
+}
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+}
+
+.trceleste {
+    background-color: #b1e5f2;
 }
