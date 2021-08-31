@@ -2,9 +2,6 @@ body {
     margin: 0;
 }
 
-header {
-    height: 30px;
-}
 
 #imgheader_background {
     background-color: rgb(105, 128, 233);
@@ -12,17 +9,20 @@ header {
 
 #imgheader_pattern {
     background-image: url("./img/pattern.png");
-    background-repeat: repeat;
-    background-size: contain;
+    background-size: 22%;
+    background-position: top;
+    background-position-x: 60px;
+    
     
 
 }
 
 #imgheader_pattern img {
-    width: 10%;
+    width: 200px;
     padding-left: 2px;
     padding-bottom: 4px;
     padding-top: 1rem;
+    margin-top: 10px;
     
 
 }
